@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Journal</title>
+    <style>
+        body {{ font-family: Arial, sans-serif; }}
+        .container {{ width: 80%; margin: auto; }}
+        .header {{ text-align: center; }}
+        .section {{ margin-top: 20px; }}
+        .image {{ width: 100%; }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{title}</h1>
+            <p><i>{date}</i></p>
+        </div>
+        <div class="section">
+            <h2>Texte et Anecdotes</h2>
+            <p>{text}</p>
+        </div>
+        <div class="section">
+            <h2>Images</h2>
+            <img src="{image_url}" class="image"/>
+        </div>
+    </div>
+</body>
+</html>
